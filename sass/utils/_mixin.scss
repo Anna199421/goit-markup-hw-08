@@ -1,0 +1,11 @@
+@mixin name($fw, $ui, $hg, $fy, $st, $ru, $ds, $se, $wm) {
+    display: $fw;
+    width: $ui;
+    height: $hg;
+    border-radius: $fy;
+    background-color: $st;
+    justify-content: $ru;
+    align-items: $ds;
+    transition-duration: $st;
+    transition-timing-function: $wm;
+}

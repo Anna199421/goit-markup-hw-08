@@ -1,0 +1,101 @@
+
+.caret {
+    color: var(--main-color2)
+}
+.header {
+    border-bottom: 1px solid #ececec;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    @media screen and (min-width: 1600px) {
+       padding-top: 25px;
+       padding-bottom: 25px;
+    }
+       border-bottom: 1px solid #ececec
+}
+.link1 {
+    text-decoration: none;
+    color: var(--main-color3);
+ }
+ .link-caret-active {
+    text-decoration: none;
+    color: var(--main-color2);
+ }
+ .navigation__logo {
+    color: var(--main-color2);
+    margin-right: 88px;
+    width: 700;
+    font-size: 24px;
+    @media screen and (min-width: 1600px) {
+        width: 700;
+        font-size: 26px;
+       margin-right: 92px;
+        &:hover, &:focus {
+          color: var(--main-color2);
+          border-radius: 50%;
+          fill: var(--main-color2);
+        }
+      }
+    }
+    .logo-header {
+    color:#000000;
+    margin-right: 93px;
+    }
+    .menu__tel, .menu__mail {
+        color: var(--main-color4);
+        display: flex;
+        align-items: center;
+    }    
+    .header-link:hover, .menu__mail:hover, .menu__tel:hover, .header-link:focus, .menu__mail:focus, .menu__tel:focus, .link1:focus, .link1:hover, .menu__header:focus, .menu__header:hover {
+        color: var(--main-color2);
+        
+    } 
+    .menu__header {
+        fill: currentColor;
+        margin-right: 10px;
+    }
+    .hero__btn:hover, .hero-btns:hover, .hero-btns:focus, .hero__btn:focus, .modal-button:hover, .modal-button:focus, .form-btn:hover, .form-btn:focus {
+        color: var(--main-color);
+       background-color: #188CE8;
+     }
+     .subject-list {
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+     }
+     .group-soc-icon  {
+        color: #AFB1B8;
+    }
+       .hero-ikon2:hover, .hero-ikon2:focus, .hero-ikon3:hover, .hero-ikon3:focus   {
+    border-color: var(--main-color2);
+       }
+    .team-icon:focus, .team-icon:hover, .footer-icon:focus, .footer-icon:hover {
+        background-color: var(--main-color2);
+    } 
+    
+    .team-icon:focus .team-icon1, .team-icon:hover .team-icon1 {
+        fill: var(--main-color);
+    }
+   
+         .team-icon2 {
+            fill: var(--main-color);
+        }
+        .links {
+            text-decoration: none;
+             color:  rgba(255, 255, 255, 0.6);
+            &:hover, &:focus {
+                color:  rgba(255, 255, 255, 0.6);
+            }
+        }
+        .check-ikon2 {
+            color: var(--main-color2);
+            text-decoration: underline; }
+        
+        .input-check:checked + .check-text span {
+            background-color: var(--main-color2);
+            border-color: transparent;
+            fill: var(--main-color);
+        }
+        .check-ikon2 {
+            color: var(--main-color2);
+            text-decoration: underline; 
+        } 
+    

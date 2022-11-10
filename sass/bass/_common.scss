@@ -1,0 +1,198 @@
+
+.menu__item {
+    position: relative;
+    display: flex;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+ }
+ .header-link, .menu__mail, .menu__tel {
+    padding: 12px 0;
+    display: block;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    @media screen and (min-width: 1600px) {
+       padding: 32px;
+      }
+}
+.subject-item {
+    display: flex;
+    justify-content: center;
+margin-bottom: 50px;
+gap: 8px;
+}   
+    .hidden-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    }
+    
+    .hidden-title1 {
+        width: 100%;
+       @media screen and (min-width:768px) {
+        width: calc((100% - 30px) / 2);
+   }
+   @media screen and (min-width:1600px) {
+    width: calc((100% - 90px) / 4);
+}
+
+    }
+        .img2 {
+           display: flex;
+        }
+        .img1__item {
+            position: relative;
+            width: 100%;
+            gap: 30px;
+   
+           @media screen and (min-width:1600px) {
+            width: calc((100% - 60px) / 3);
+         }
+        }
+         .img-projects {
+            display: block;
+            max-width: 100%;
+            height: auto;
+         }
+         .projects-item {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+         }
+         .projects-search link {
+            display: block;
+         }
+         .projects-item-wrap {
+            position: relative;
+            overflow: hidden;
+         }
+         .img1__list {
+            margin-left: 215px;
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .team-sublist, .footer-soc-list {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+          }
+          
+          .team-sublist-item, .footer-soc-item {
+            width: 44px;
+            height: 44px;
+          }
+          .team-item {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+}
+        .content {
+            padding: 30px;
+        }
+        
+        .group-hero {
+            margin-bottom: 50px;
+        }
+        
+        .group-item {
+            width: calc((100% - 30px) / 2);
+            @media screen and (min-width:768px) {
+                width: calc((100% - 60px) / 3);
+           }
+           @media screen and (min-width:1600px) {
+            width: calc((100% - 150px) / 6);
+        }
+        }
+        .group-list {
+            display: flex;
+             gap: 30px;
+             flex-wrap: wrap;
+         }
+         .footer {
+            background-color:  #2F303A;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            display: flex;
+            gap: 70px;
+            align-items: baseline;
+           
+    }
+         .footer-address {
+            font-style: normal;
+            max-width: 252px;
+         }
+         .contacts {
+            margin-right: 70px;
+            justify-content: center;
+            
+         }
+         .sosho-list1 {
+            padding-top: 12px;
+            margin-left: auto;
+           
+         }
+        .sosho-list2 {
+            padding: 60px;
+            align-items: center;
+            
+            @media screen and (min-width: 1600px) {
+                padding: 12px;
+              }
+        }
+        .footer-list, .links-footer{
+            font-style: normal;
+            max-width: 252px;
+            margin-bottom: 9px;
+        }
+        .send {
+            margin-left: 10px;
+        }
+        .subscription {
+            display: flex;
+        }
+        .backdrop {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.2);
+            transition: opacity 300ms Linear, visibility 300ms Linear;
+          }
+          .backdrop .is-hidden .modal {
+            transform: translate(-50%, -50%) scaleY(0);
+          }
+          .is-hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+          }
+          
+          .imput-wrap {
+            position: relative;
+            transition: background-color 250ms cubic-beziner(0.4, 0, 0.2, 1);
+        }
+        .check-text {
+            font-size: 14px;
+            color: var(--main-color3);
+            display: flex;
+            align-items: center;
+            color: #757575;
+        }
+        .check-icon {
+            transition: background-color 250ms cubic-beziner(0.4, 0, 0.2, 1);
+        }
+        
+           .visually-hidden {
+            position: absolute;
+            clip: rect(0 0 0 0);
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding-top: 94px;
+            padding-bottom: 50px;
+          }
+          .no-scroll {
+            overflow: hidden;
+        }

@@ -1,0 +1,110 @@
+.modal {
+    width: 528px;
+    min-height: 528px;
+    background-color: var(--main-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scaleY(1);
+    transition: transform 300ms Linear;
+    padding: 40px;
+}
+  .modal-input {
+    width: 448px;
+    height: 40px;
+    border: 1px solid
+    rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding-left: 42px;
+    outline: transparent;
+   &:focus {
+        border-color: var(--main-color2);
+      }
+      &:focus + .modal-input-icon {
+    fill: var(--main-color2);
+      }
+  }
+  .modal-coment {
+    width: 448px;
+    height: 120px;
+    border: 1px solid
+    rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+    padding: 12px 16px;
+    outline: none;
+    &:hover, &:focus {
+        border-color: var(--main-color2);
+        .modal-coment:hover, .modal-coment:focus {
+            border-color: var(--main-color2);
+          }
+          .modal-coment::placeholder {
+            font-size: 12px;
+            color: rgba(117, 117, 117, 0.5);
+          }
+      }
+  }
+  .modal-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .modal-label-text {
+    font-size: 12px;
+    margin-bottom: 4px;
+    display: block;
+   color:
+   #757575;
+  }
+  .modal-input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+  }
+  .modal-field {
+    margin-bottom: 15px; 
+}
+.modal-field2 {
+    margin-left: 25px;
+    padding-bottom: 30px;
+}
+  
+  .modal-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: var(--main-color);
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    fill: currentColor;
+    transition: background-color 250ms cubic-beziner(0.4, 0, 0.2, 1);
+   &:hover, &:focus {
+        color: var(--main-color2);
+        border-radius: 50%;
+        fill: var(--main-color2);
+      }
+      }
+      .modal-button {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        /* identical to box height, or 188% */
+        text-decoration: none; 
+        letter-spacing: 6%;
+        color: var(--main-color);
+         background-color: var(--main-color2);
+         padding: 10px 55px;
+         border-radius: 4px;
+         border: none;
+         display: block;
+         margin: auto;
+    }
