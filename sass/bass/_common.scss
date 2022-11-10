@@ -12,7 +12,7 @@
     display: block;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-    @media screen and (min-width: 1600px) {
+    @media screen and (min-width: 1200px) {
        padding: 32px;
       }
 }
@@ -33,7 +33,7 @@ gap: 8px;
        @media screen and (min-width:768px) {
         width: calc((100% - 30px) / 2);
    }
-   @media screen and (min-width:1600px) {
+   @media screen and (min-width:1200px) {
     width: calc((100% - 90px) / 4);
 }
 
@@ -46,8 +46,10 @@ gap: 8px;
             width: 100%;
             gap: 30px;
    
-           @media screen and (min-width:1600px) {
+           @media screen and (min-width:1200px) {
             width: calc((100% - 60px) / 3);
+            
+            
          }
         }
          .img-projects {
@@ -101,7 +103,7 @@ gap: 8px;
             @media screen and (min-width:768px) {
                 width: calc((100% - 60px) / 3);
            }
-           @media screen and (min-width:1600px) {
+           @media screen and (min-width:1200px) {
             width: calc((100% - 150px) / 6);
         }
         }
@@ -117,27 +119,53 @@ gap: 8px;
             display: flex;
             gap: 70px;
             align-items: baseline;
-           
+            
     }
          .footer-address {
             font-style: normal;
             max-width: 252px;
          }
+         
          .contacts {
-            margin-right: 70px;
-            justify-content: center;
-            
+            @media screen and (min-width: 480px) {
+            text-align: center;}
+
+            @media screen and (min-width: 768px) {
+                margin-right: 70px; 
+                
+                
+              }
+            @media screen and (min-width: 1200px) {
+                margin-right: 70px;  
          }
+        }
          .sosho-list1 {
-            padding-top: 12px;
-            margin-left: auto;
+            /*padding-top: 12px;
+            margin-left: auto;*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            @media screen and (min-width: 768px) {
+             
+            }
+            @media screen and (min-width: 1200px) {
+                padding-top: 12px;
+                margin-left: auto;
+                display: flex;
+            }
            
          }
         .sosho-list2 {
             padding: 60px;
             align-items: center;
-            
-            @media screen and (min-width: 1600px) {
+            @media screen and (min-width: 768px) {
+                padding: 12px;
+                align-items: right;
+                align-items: center;
+               
+              }
+            @media screen and (min-width: 1200px) {
                 padding: 12px;
               }
         }
@@ -150,7 +178,8 @@ gap: 8px;
             margin-left: 10px;
         }
         .subscription {
-            display: flex;
+            /*display: flex;*/
+            width: 100%;
         }
         .backdrop {
             width: 100%;
