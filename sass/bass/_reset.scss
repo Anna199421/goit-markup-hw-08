@@ -129,6 +129,7 @@ line-height: 12px;
             & content {
                 padding-top: 20px;
                 padding-bottom: 20px;
+                
             }
             
             @media screen and (min-width:480px) {
@@ -355,4 +356,11 @@ line-height: 12px;
             text-align: center;
             justify-content: center;
             gap: 60px;
+        }
+        .mob-menu-list {
+            margin-bottom: 302px;
+            
+        }
+        .mob-menu__item {
+            margin-bottom: 64px;
         }
