@@ -298,7 +298,7 @@ font-size: 12px;
               }
         }
         .form-input {
-            width: 450px;
+           
             padding: 15px 16px;
             font-weight: 400;
             font-size: 16px;
@@ -312,6 +312,12 @@ font-size: 12px;
             rgba(255, 255, 255, 0.6);
             border: 1px solid rgba(255, 255, 255, 0.3);
             border-radius: 4px;
+            @media screen and (max-width: 767px) {
+                width: 100%;
+            }
+            @media screen and (min-width: 768px) {
+                width: 450px;
+            }
             @media screen and (min-width: 1200px) {
                 width: 358px;
                 padding: 15px 16px;
